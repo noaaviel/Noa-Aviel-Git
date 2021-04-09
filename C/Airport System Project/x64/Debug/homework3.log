@@ -1,0 +1,3 @@
+﻿  Company.c
+C:\Users\noaav\source\repos\homework3\Company.c(27,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  homework3.vcxproj -> C:\Users\noaav\source\repos\homework3\x64\Debug\homework3.exe
