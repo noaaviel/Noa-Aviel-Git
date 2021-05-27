@@ -1,0 +1,15 @@
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.csprojAssemblyReference.cache
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.Form1.resources
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.csproj.GenerateResource.cache
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\ClassWave.exe.config
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\ClassWave.exe
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\ClassWave.pdb
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\AForge.dll
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\AForge.Video.dll
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\AForge.xml
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\bin\Debug\AForge.Video.xml
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.Properties.Resources.resources
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.csproj.CoreCompileInputs.cache
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.csproj.CopyComplete
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.exe
+C:\Users\orige\PycharmProjects\pythonProject\voice\GUI\obj\Debug\ClassWave.pdb
