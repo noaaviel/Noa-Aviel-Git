@@ -15,30 +15,31 @@ public class Gui
     public static string res = "";
     public ClassWave.Form1 form1;
    
- 
-
-
     public void socket()
     { 
         serverSocket.Start();
         Console.WriteLine(" >> Server Status");
         clientSocket = serverSocket.AcceptTcpClient();
-        Console.WriteLine(" >> Accept connection from client");
-
+        Console.WriteLine(" >> Accept Connection From Client");
         while (activeSocket)
         {
             try
-            {
+            { 
                 netWorkStream = clientSocket.GetStream();
                 byte[] bytesFrom = new byte[1024];
                 netWorkStream.Read(bytesFrom, 0, 1024);
-                string dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
+                String dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
+             
                 if (dataFromClient == "")
                     continue;
+              /*  if(dataFromClient == null)
+                {
+                    break;
+                }*/
                 dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
-                Console.WriteLine(" >> Data from client -" + dataFromClient);
+                Console.WriteLine(" >> Data From Client -" + dataFromClient);
+               // Console.WriteLine(" >> End Of Data From Client >>\n");
                 res = dataFromClient;
-                
                 ClassWave.Form1.DoChangeTextBox(res);
 
             }
@@ -61,7 +62,7 @@ public class Gui
         activeSocket = false;
         clientSocket.Close();
         serverSocket.Stop();
-        Console.WriteLine(" >> exit");
+        Console.WriteLine(" >> EXIT");
         Console.ReadLine();
     }
 
